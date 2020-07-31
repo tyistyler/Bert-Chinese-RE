@@ -1,0 +1,4 @@
+Other
+Whole-Component(e1,e2)
+Connection(e1,e2)
+
