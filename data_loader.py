@@ -85,7 +85,7 @@ class REPorcessor(object):
             file_to_read = self.args.test_file
 
         logger.info("LOOKING AT {}".format(os.path.join(self.args.data_dir, file_to_read)), mode)
-        return self._create_examples(self._read_tsv(os.path.join(self.args.data_dir, file_to_read), mode))
+        return self._create_examples(self._read_tsv(os.path.join(self.args.data_dir, file_to_read)), mode)
 
 processors = {
     "patent": REPorcessor
